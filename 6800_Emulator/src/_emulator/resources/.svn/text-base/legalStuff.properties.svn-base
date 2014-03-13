@@ -1,0 +1,11 @@
+jButton1.text=OK
+jTextArea1.text=
+jLabel1.text=ROM:
+#NOI18N
+jLabel1.font=Tahoma-Bold-11
+jLabel2.text=ET-3400 ROM set produced by Heath Company Inc.
+jLabel3.text=Assembler:
+#NOI18N
+jLabel3.font=Tahoma-Bold-11
+jLabel4.text=MicroAssembler AS included with permission from Alfred Arnold under the
+jLabel5.text=GPL. His website can be found at:  http://john.ccac.rwth-aachen.de:8000/as/

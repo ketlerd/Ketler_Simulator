@@ -1,0 +1,14 @@
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+
+jLabel1.text=Address
+jRadioButton2.text=MI
+jRadioButton3.text=NMI
+jLabel2.text=IRQ
+jRadioButton1.text=None
+jButton2.text=Cancel
+jButton1.text=OK
+jTextField1.text=0x
+jLabel3.text=Encoding
+jRadioButton4.text=Hex
+jRadioButton5.text=ET-3400

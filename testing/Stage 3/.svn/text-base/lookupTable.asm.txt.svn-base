@@ -1,0 +1,17 @@
+	org	$FF96
+Zero	FCB	#$7E
+One	FCB	#$30
+Two	FCB	#$6D
+Three	FCB	#$79
+Four	FCB	#$33
+Five	FCB	#$5B
+Six	FCB	#$5F
+Seven	FCB	#$70
+Eight	FCB	#$7F
+Nine	FCB	#$7B
+A	FCB	#$77
+B	FCB	#$1F
+C	FCB	#$4E
+D	FCB	#$3D
+E	FCB	#$4F
+F	FCB	#$47

@@ -1,0 +1,28 @@
+	ORG 	$0000	(Sum of n numbers recursive)
+	LDS	#$D000	(Note: Assembler does not assemble correctly..possible bug)
+Tmp	EQU	#$DD08	(Assembles second JSR SumN as 9D..halt and catch fire)
+	BRA	Start   (Required manual modification to set instruction as JSR instead of HCF)
+	
+
+Num1	FCB	#$5
+Num2	FCB	#$6
+Num3	FCB	#$7
+Num4 	FCB	#$8
+	
+
+
+Start	ADDA	#$4
+	STAA	Tmp
+	LDX	#$3
+	JSR	SumN
+	WAI
+
+SumN	LDAA	Tmp
+	BEQ	Add
+	DEC	Tmp
+	JSR	SumN
+	INC	Tmp
+Add	LDAB	$00,X
+	ABA
+	INX
+	RTS

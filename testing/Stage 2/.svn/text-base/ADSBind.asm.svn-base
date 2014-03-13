@@ -1,0 +1,12 @@
+	ORG 	$0000	(Test ADD SUB INDEXED)
+	ADDA	#$10
+	STAA	$30,X
+	ADDB	#$20
+	STAB	$31,X
+	LDAA	$3,X
+	LDAB	#$31
+	ADDA	#$39
+	LDAA	#$31
+	SUBA	$31,X
+	SUBB	$31,X
+	

@@ -1,0 +1,13 @@
+	ORG 	$0000	(Test AND OR EOR Direct)
+	ADDA	#$20
+	ADDB	#$30
+	STAA	$0050
+	ANDB	#$30
+	STAB	$0051
+	ANDA	#$8B	
+	ADDA	#$10
+	ADDB	#$40
+	ORAA	#$20
+	ORAB	#$20
+	EORA	#$20
+	EORB	#$20

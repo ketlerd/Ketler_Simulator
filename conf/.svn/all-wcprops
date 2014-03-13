@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/p/ketlersimulator/code/!svn/ver/3/conf
+END
+authz
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/p/ketlersimulator/code/!svn/ver/3/conf/authz
+END
+svnserve.conf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/ketlersimulator/code/!svn/ver/3/conf/svnserve.conf
+END
+passwd
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/p/ketlersimulator/code/!svn/ver/3/conf/passwd
+END

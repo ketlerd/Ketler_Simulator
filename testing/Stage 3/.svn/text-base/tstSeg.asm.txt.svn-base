@@ -1,0 +1,35 @@
+	org 	$0000
+SegInd	EQU	#$17EF
+Ctr	EQU	#$DD0A
+
+	LDS	#$D000
+Restart	LDX	#$17F0
+	ANDA	#$0
+	STAA	SegInd
+
+SegSel	LDAA	SegInd	(Loop through all the segments)
+	SUBA	#$6	
+	BEQ	Restart
+	JSR	Write	(Check if finished writing into 6th segment)
+	ANDA	#$0
+	STAA	$00,X
+	STAA	Ctr	(Reset the counter)
+	INC	SegInd
+	INX
+	BRA	SegSel
+
+	
+Write	NOP	
+	NOP
+	NOP
+	NOP
+	LDAA	Ctr	(Loop through 0 to 255 on indexed segment)
+	STAA	$00,X
+	SUBA	#$FF
+	BEQ    	Return	(Check if ctr=255)
+	INC	Ctr
+	BRA	Write	
+Return	RTS
+	
+
+

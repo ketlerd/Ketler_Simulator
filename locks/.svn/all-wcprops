@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/p/ketlersimulator/code/!svn/ver/3/locks
+END
+db.lock
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/p/ketlersimulator/code/!svn/ver/3/locks/db.lock
+END
+db-logs.lock
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/ketlersimulator/code/!svn/ver/3/locks/db-logs.lock
+END

@@ -1,0 +1,70 @@
+	ORG 	$0000	(Bit Testing Direct)
+	ADDA	#$10
+	STAA	$0090
+	SUBA	#$1
+	BITA	$0090
+	ADDB	#$10
+	STAB	$0090
+	SUBB	#$1
+	BITB	$0090
+	ANDA	#$0	
+	ADDA	#$FF
+	STAA	$0091
+	BITA	$0091
+	ANDB	#$0	
+	ADDB	#$FF
+	STAB	$0091
+	BITB	$0091
+	ANDA	#$0	(Bit Testing Extended)
+	ANDB	#$0
+	ADDA	#$10
+	STAA	$0590
+	SUBA	#$1
+	BITA	$0590
+	ADDB	#$10
+	STAB	$0590
+	SUBB	#$1
+	BITB	$0590
+	ANDA	#$0	
+	ADDA	#$FF
+	STAA	$0591
+	BITA	$0591
+	ANDB	#$0	
+	ADDB	#$FF
+	STAB	$0591
+	BITB	$0591
+	ANDA	#$0	(Bit Testing Immediate)
+	ANDB	#$0
+	ADDA	#$09
+	BITA	#$10
+	ADDB	#$09
+	BITA	#$10
+	ANDA	#$0
+	ADDA	#$FF
+	BITA	#$FF
+	ADDB	#$FF
+	BITB	#$FF
+	ANDA	#$0
+	ANDB	#$0
+	LDX	#$90	(Bit Test Indexed)
+	ADDA	#$10
+	STAA	$00,X
+	SUBA	#$1
+	BITA	$00,X
+	ADDB	#$10
+	STAB	$00,X
+	SUBB	#$1
+	BITB	$00,X
+	ANDA	#$0	
+	ADDA	#$FF
+	STAA	$01,X
+	BITA	$01,X
+	ANDB	#$0	
+	ADDB	#$FF
+	STAB	$01,X
+	BITB	$01,X
+	
+	
+
+	
+	

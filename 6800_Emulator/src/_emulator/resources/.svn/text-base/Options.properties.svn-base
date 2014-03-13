@@ -1,0 +1,9 @@
+jLabel1.text=Default ROM Set
+jRadioButton1.text=ET-3400 ROM (Lovegrove)
+jRadioButton2.text=ROM Set 1
+jRadioButton3.text=ROM Set 2
+jRadioButton4.text=ROM Set 3
+jButton4.text=OK
+jButton5.text=Cancel
+jButton1.text=Edit
+Form.title=ROM Options

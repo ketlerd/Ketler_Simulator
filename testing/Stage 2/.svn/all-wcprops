@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202
+END
+tba.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/tba.asm
+END
+ANDORimm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDORimm.asm
+END
+MULTIPLY.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/MULTIPLY.S19
+END
+ANDOREORimm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDOREORimm.asm
+END
+LDS_TEST.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/LDS_TEST.S19
+END
+BitTest.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/BitTest.asm
+END
+cmptest.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/cmptest.asm
+END
+ABA.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ABA.S19
+END
+INC_DEC.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/INC_DEC.S19
+END
+CBA.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/CBA.S19
+END
+inc_dec.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/inc_dec.asm
+END
+BBLSRT.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/BBLSRT.S19
+END
+tempfile.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/tempfile.tmp
+END
+SEC_CLC.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/SEC_CLC.S19
+END
+bblsrt.asm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/bblsrt.asm
+END
+JSR.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/JSR.S19
+END
+sec_clc.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/sec_clc.asm
+END
+SQUARE.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/SQUARE.S19
+END
+ANDORind.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDORind.asm
+END
+square.asm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/square.asm
+END
+SBA.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/SBA.S19
+END
+Addsub.asm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/Addsub.asm
+END
+SEI_CLI.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/SEI_CLI.S19
+END
+SBC.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/SBC.S19
+END
+ANDOREOR.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDOREOR.S19
+END
+sei_cli.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/sei_cli.asm
+END
+BCC_BCS.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/BCC_BCS.S19
+END
+BITTEST.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/BITTEST.S19
+END
+BLS.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/BLS.S19
+END
+bcc_bcs.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/bcc_bcs.asm
+END
+TPA.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/TPA.S19
+END
+lds_test.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/lds_test.asm
+END
+LDX_TEST.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/LDX_TEST.S19
+END
+aba.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/aba.asm
+END
+tempfile.2.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/tempfile.2.tmp
+END
+cba.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/cba.asm
+END
+INX.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/INX.S19
+END
+SEV_CLV.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/SEV_CLV.S19
+END
+ADDSUB.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ADDSUB.S19
+END
+jsr.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/jsr.asm
+END
+ANDSUBIN.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDSUBIN.S19
+END
+ADSBIND.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ADSBIND.S19
+END
+sev_clv.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/sev_clv.asm
+END
+TAB.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/TAB.S19
+END
+sba.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/sba.asm
+END
+stack.asm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/stack.asm
+END
+sbc.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/sbc.asm
+END
+ANDORind.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDORind.s19.txt
+END
+ANDOREORdir.asm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDOREORdir.asm
+END
+multiply.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/multiply.asm
+END
+ANDOREXT.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDOREXT.S19
+END
+bls.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/bls.asm
+END
+TAP.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/TAP.S19
+END
+ASR_ASL.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ASR_ASL.S19
+END
+asr_asl.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/asr_asl.asm
+END
+tpa.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/tpa.asm
+END
+ldx_test.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ldx_test.asm
+END
+inx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/inx.asm
+END
+BRA.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/BRA.S19
+END
+STACK.S19
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/STACK.S19
+END
+ANDORIMM.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDORIMM.S19
+END
+TBA.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/TBA.S19
+END
+ADSBind.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ADSBind.asm
+END
+ADCS.S19
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ADCS.S19
+END
+tab.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/tab.asm
+END
+ROR_ROL.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ROR_ROL.S19
+END
+CMPTEST.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/CMPTEST.S19
+END
+ror_rol.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ror_rol.asm
+END
+tap.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/tap.asm
+END
+ANDORext.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDORext.asm
+END
+adc.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/adc.asm
+END
+ANDORIND.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDORIND.S19
+END
+bra.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/bra.asm
+END
+ANDOREORdir.S19
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%202/ANDOREORdir.S19
+END

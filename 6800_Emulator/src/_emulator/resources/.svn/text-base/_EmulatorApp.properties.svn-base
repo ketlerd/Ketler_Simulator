@@ -1,0 +1,11 @@
+# Application global resources
+
+Application.name = 6800_Emulator
+Application.title = Ketler Simulator
+Application.version = 1.0
+Application.vendor = Sun Microsystems Inc.
+Application.homepage = http\://appframework.dev.java.net/
+Application.description = Motorola 6800 Emulator. For COSC 3P92.
+Application.vendorId = Sun
+Application.id = ${Application.name}
+Application.lookAndFeel = system

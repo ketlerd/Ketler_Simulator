@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203
+END
+KBOUT.S19
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/KBOUT.S19
+END
+sketch.asm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/sketch.asm
+END
+reset.asm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/reset.asm
+END
+clockINT.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clockINT.asm.txt
+END
+tstSeg.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/tstSeg.asm.txt
+END
+outhex.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outhex.asm.txt
+END
+sumNrec.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/sumNrec.asm.txt
+END
+clkin2.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clkin2.s19.txt
+END
+lookupTable.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/lookupTable.asm.txt
+END
+GCJ.S19
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/GCJ.S19
+END
+INTERRUP.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/INTERRUP.S19
+END
+sumNRec2.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/sumNRec2.s19.txt
+END
+outbyte.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outbyte.asm.txt
+END
+clock.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clock.asm.txt
+END
+24hrclock.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/24hrclock.asm.txt
+END
+INTERCLO.S19
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/INTERCLO.S19
+END
+outhex1.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outhex1.asm.txt
+END
+RESET.S19
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/RESET.S19
+END
+clkin.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clkin.asm.txt
+END
+clockINT.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clockINT.s19.txt
+END
+inter.asm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/inter.asm
+END
+segInd.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/segInd.s19.txt
+END
+tstSeg.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/tstSeg.s19.txt
+END
+outhex.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outhex.s19.txt
+END
+sumNrec.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/sumNrec.s19.txt
+END
+DRAW.S19
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/DRAW.S19
+END
+sumNit.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/sumNit.s19.txt
+END
+lookupTable.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/lookupTable.s19.txt
+END
+draw.asm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/draw.asm
+END
+VECTOR.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/VECTOR.S19
+END
+INSERT.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/INSERT.S19
+END
+ldxtest.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/ldxtest.s19.txt
+END
+outby.asm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outby.asm
+END
+vector.asm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/vector.asm
+END
+gcj.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/gcj.asm
+END
+INTKB.S19
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/INTKB.S19
+END
+clock.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clock.s19.txt
+END
+24hrclock.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/24hrclock.s19.txt
+END
+outbyte.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outbyte.s19.txt
+END
+outhex1.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/outhex1.s19.txt
+END
+OUTHEX.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/OUTHEX.S19
+END
+GETCHAR.S19
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/GETCHAR.S19
+END
+clkin.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/clkin.s19.txt
+END
+sumNRec2.asm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/sumNRec2.asm.txt
+END
+getChar.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/getChar.asm
+END
+INTER.S19
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/INTER.S19
+END
+SKETCH.S19
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/SKETCH.S19
+END
+testbr.s19.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/testbr.s19.txt
+END
+interClo.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/testing/Stage%203/interClo.asm
+END

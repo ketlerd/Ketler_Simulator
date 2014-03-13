@@ -1,0 +1,50 @@
+	ORG 	$0000	(Test Direct ADC)
+	ADDA	#$10
+	STAA	$0050
+	ADDA	#$5
+	SEC	
+	ADCA	$0050
+	ADDB	#$10
+	STAB	$0050
+	ADDB	#$5
+	SEC	
+	ADCB	$0050
+	ANDA	#$0
+	ANDB	#$0
+	ADDA	#$10	(Test Extended ADC)
+	STAA	$0150
+	ADDA	#$5
+	SEC	
+	ADCA	$0150
+	ADDB	#$10
+	STAB	$0150
+	ADDB	#$5
+	SEC	
+	ADCB	$0150
+	ANDA	#$0
+	ANDB	#$0
+	ADDA	#$10	(Test Immediate ADC)
+	ADDA	#$5
+	SEC	
+	ADCA	#$10
+	ADDB	#$10
+	ADDB	#$5
+	SEC	
+	ADCB	#$10
+	ANDA	#$0
+	ANDB	#$0
+	ADDA	#$10	(Test Indexed ADC)
+	LDX	#$50
+	STAA	$00,X
+	ADDA	#$5
+	SEC	
+	ADCA	$00,X
+	ADDB	#$10
+	STAB	$00,X
+	ADDB	#$5
+	SEC	
+	ADCB	$00,X
+	
+	
+
+

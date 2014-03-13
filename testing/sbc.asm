@@ -1,0 +1,47 @@
+	ORG 	$0000	(Test Direct SBC)
+	ADDA	#$10
+	STAA	$0070
+	ADDA	#$5
+	SEC	
+	SBCA	$0070
+	ADDB	#$10
+	STAB	$0070
+	ADDB	#$5
+	SEC	
+	SBCB	$0070
+	ANDA	#$0
+	ANDB	#$0
+	ADDA	#$10	(Test Extended SBC)
+	STAA	$0170
+	ADDA	#$5
+	SEC	
+	SBCA	$0170
+	ADDB	#$10
+	STAB	$0170
+	ADDB	#$5
+	SEC	
+	SBCB	$0170
+	ANDA	#$0
+	ANDB	#$0
+	ADDA	#$10	(Test Immediate SBC)
+	ADDA	#$5
+	SEC	
+	SBCA	#$10
+	ADDB	#$10
+	ADDB	#$5
+	SEC	
+	SBCB	#$10
+	ANDA	#$0
+	ANDB	#$0
+	ADDA	#$10	(Test Indexed SBC)
+	LDX	#$70
+	STAA	$00,X
+	ADDA	#$5
+	SEC	
+	SBCA	$00,X
+	ADDB	#$10
+	STAB	$00,X
+	ADDB	#$5
+	SEC	
+	SBCB	$00,X
+	

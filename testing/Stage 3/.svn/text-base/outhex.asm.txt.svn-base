@@ -1,0 +1,38 @@
+	org	$0000
+	LDS	#$D000
+	ADDA	#$F5	(Testing for display 5)
+	
+	
+	JSR	outhex
+	WAI
+
+outhex	NOP		(Label)
+
+Chars	EQU	#$FF96
+Tmp	EQU	#$DD06
+SegInd	EQU	#$17EF
+
+	ADDB	#$4	(Testing on 4th segment)
+	STAB	SegInd
+	
+	LDX	#$FF96
+	
+	STAA	Tmp     (Temporarily Store Value from ACCA)
+	ANDA	#$0F
+Loop	BEQ	LoadSeg
+	INX
+	SUBA	#$01
+	BEQ 	LoadSeg
+	BRA	Loop
+
+LoadSeg	LDAA	$00,X	(Load ACCA with output bitpattern)
+	LDX	#$17F0
+	LDAB	SegInd	(Load the segment index)
+Loop1	BEQ	Write
+	INX
+	SUBB	#$01
+	BEQ	Write
+	BRA	Loop1
+
+Write	STAA	$00,X
+	RTS

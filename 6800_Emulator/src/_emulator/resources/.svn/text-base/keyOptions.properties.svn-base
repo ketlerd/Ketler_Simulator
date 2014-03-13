@@ -1,0 +1,8 @@
+jLabel1.text=Address
+jTextField1.text=0x
+jButton1.text=OK
+jButton2.text=Cancel
+jRadioButton1.text=None
+jRadioButton2.text=MI
+jRadioButton3.text=NMI
+jLabel2.text=IRQ

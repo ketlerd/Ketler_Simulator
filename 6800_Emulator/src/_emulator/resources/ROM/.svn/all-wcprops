@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/ketlersimulator/code/!svn/ver/6/6800_Emulator/src/_emulator/resources/ROM
+END
+ROM.HEX
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/ketlersimulator/code/!svn/ver/6/6800_Emulator/src/_emulator/resources/ROM/ROM.HEX
+END
+OUTHEX.S19
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/ketlersimulator/code/!svn/ver/3/6800_Emulator/src/_emulator/resources/ROM/OUTHEX.S19
+END
+GETCHAR.S19
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/ketlersimulator/code/!svn/ver/3/6800_Emulator/src/_emulator/resources/ROM/GETCHAR.S19
+END
+INTER.S19
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/ketlersimulator/code/!svn/ver/3/6800_Emulator/src/_emulator/resources/ROM/INTER.S19
+END
+LOOKUPTABLE.S19
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/ketlersimulator/code/!svn/ver/3/6800_Emulator/src/_emulator/resources/ROM/LOOKUPTABLE.S19
+END
+RESET.S19
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/ketlersimulator/code/!svn/ver/3/6800_Emulator/src/_emulator/resources/ROM/RESET.S19
+END
+VECTOR.S19
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/ketlersimulator/code/!svn/ver/3/6800_Emulator/src/_emulator/resources/ROM/VECTOR.S19
+END

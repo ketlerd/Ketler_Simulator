@@ -1,0 +1,6 @@
+;config for ROM set for Motorola 6800 emu
+;[set 1]
+name=custom set 1
+file1=c:\bla\bla
+file2=c:\blah
+file3=c:\foo

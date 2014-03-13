@@ -1,0 +1,144 @@
+	org	$0000
+Seg0	EQU	#$17F0
+Seg1	EQU	#$17F1
+Seg2	EQU	#$17F2
+Seg3	EQU	#$17F3
+Seg4	EQU	#$17F4
+Seg5	EQU	#$17F5
+Hr	EQU	#$DD00
+Hr10	EQU	#$DD01
+Min	EQU	#$DD02
+Min9	EQU	#$DD03
+Min10s	EQU	#$DD04
+Min59	EQU	#$DD05
+
+Init	LDS	#$D000
+	ADDA	#$7E
+	STAA	Seg2
+	STAA	Seg3
+	STAA	Seg4
+	STAA	Seg5
+
+	
+Clkloop	JSR	 Clock
+	BRA	Clkloop
+	
+
+Clock	NOP
+Chk9	ANDA	#$0000
+	ADDA	Min9	(Check if min9=9)
+	SUBA	#$9
+	BEQ	Chk59
+	JSR	Update	(Update Seg 5)
+	INC	Min9
+	INC	Min59
+	RTS
+	
+
+Chk59	ANDA	#$0000
+	ADDA	Min59	(Check if Min=59)
+	SUBA	#$3B
+	BEQ	IncHr
+	JSR	Update	(Update Seg 4 and 5)
+	ANDA	#$0000
+	STAA	Min9
+	INC	Min10s
+	INC	Min59
+	RTS
+
+IncHr	JSR	Update
+	ANDA	#$0000
+	ADDA	Hr	(Check if Hr=9)
+	SUBA	#$9
+	BEQ	IncHr10 (If HR=9, increment to 10)
+	ANDA	#$0000
+	ADDA	Hr
+	SUBA	#$3
+	BEQ	Chk12
+ResumeHr ANDA	#$0000
+	STAA	Min9
+	STAA	Min10s
+	STAA	Min59
+	JSR 	Update
+	INC	Hr
+	RTS
+
+IncHr10	ANDA	#$0000
+	ADDA	Hr10
+	SUBA	#$2
+	ANDA	#$0000
+	STAA	Hr	(Set 2nd digit Hour to 0)
+	JSR	Update
+	INC	Hr10
+	ANDA	#$0000
+	STAA	Min9
+	STAA	Min10s
+	STAA	Min59
+	RTS
+
+Chk12	ANDA	#$0000
+	ADDA	Hr10
+	SUBA	#$2
+	BEQ	Reset	(If Hour is 12, reset)
+	BRA	ResumeHr
+	
+
+Reset	ANDA	#$0000
+	STAA	Hr
+	STAA	Hr10
+	STAA	Min9
+	STAA	Min10s
+	STAA	Min59
+	
+	
+
+Update	LDX	#$FF96
+	ANDA	#$0000
+	ADDA	Min9
+IndLp5	BEQ	Write5
+	INX
+	SUBA	#$01
+	BNE	IndLp5
+
+Write5	LDAB	$00,X
+	STAB	Seg5
+
+Update4	LDX	#$FF96
+	ANDA	#$0000
+	ADDA	Min10s
+IndLp4	BEQ	Write4
+	INX
+	SUBA	#$01
+	BNE	IndLp4
+
+Write4	LDAB	$00,X
+	STAB	Seg4
+
+Update3	LDX	#$FF96
+	ANDA	#$0000
+	ADDA	Hr
+IndLp3	BEQ	Write3
+	INX
+	SUBA	#$01
+	BNE	IndLp3
+
+Write3	LDAB	$00,X
+	STAB	Seg3
+
+Update2	LDX	#$FF96
+	ANDA	#$0000
+	ADDA	Hr10
+IndLp2	BEQ	Write2
+	INX
+	SUBA	#$01
+	BNE	IndLp2
+
+Write2	LDAB	$00,X
+	STAB	Seg2
+	NOP
+	NOP
+	NOP
+	NOP
+	NOP
+	RTS
+

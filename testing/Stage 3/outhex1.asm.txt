@@ -1,0 +1,22 @@
+	org 	$0000
+Seg5	EQU	#$17F5
+Ctr	EQU	#$DD07
+
+	LDS	#$D000
+	JSR	tOuthex
+
+
+	
+tOuthex	LDX	#$FF96
+	ANDA	#$0000
+	STAA	Ctr
+	
+Loop	LDAA	$00,X
+	STAA	Seg5
+	INX
+	INC	Ctr
+	ANDB	#$0000
+	ADDB	#$F
+	SUBB	Ctr
+	BEQ 	tOuthex	
+	BRA	Loop

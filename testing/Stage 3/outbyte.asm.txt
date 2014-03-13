@@ -1,0 +1,25 @@
+	ORG	$0000
+
+Seg0	EQU	$17F0
+Seg1	EQU	$17F1
+Seg2	EQU	$17F2
+Seg3	EQU	$17F3
+Seg4	EQU	$17F4
+Seg5	EQU	$17F5
+
+SegI	EQU	$17F0
+
+
+	LDS	$00D0
+	JSR	outByte
+
+outByte	ANDB	#$0000 (Start of Outbyte)
+	LDX	$17F0
+	ADDB	SegI
+	BNE	Write
+Loop	LDX	$01,X
+	SUBB	#$1
+	BLS	Loop
+Write	STAA	$00,X
+	RTS
+	

@@ -1,0 +1,16 @@
+title = About: Motorola 6800 Emulator
+
+closeAboutBox.Action.text = &Close
+
+appDescLabel.text=Motorola 6800 Emulator
+jLabel1.text=By:
+#NOI18N
+jLabel1.font=Tahoma-Bold-11
+jLabel2.text=David Ketler, Dave Bockus
+jLabel3.text=Brock University, Computer Science Department
+jLabel4.text=Special thanks to:
+#NOI18N
+jLabel4.font=Tahoma-Bold-11
+jButton1.text=Legal Stuff
+jLabel5.text=Arnej, Day[9] and Tastosis for
+jLabel6.text=providing SC2 and trance to keep me sane

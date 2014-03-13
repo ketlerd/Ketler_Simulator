@@ -1,0 +1,31 @@
+	ORG 	$0000	(Sum of n numbers recursive)
+	LDS	#$D000
+Tmp	EQU	#$DD08
+Result	EQU	#$DD0A
+	BRA	Start
+	
+
+Num1	FCB	#$5
+Num2	FCB	#$6
+Num3	FCB	#$7
+Num4 	FCB	#$8
+	
+
+
+Start	ADDA	#$4
+	STAA	Tmp
+	LDX	#$3
+	JSR	SumN
+	LDAA	Result
+	WAI
+
+SumN	LDAA	Tmp
+	BEQ	Add
+	DEC	Tmp
+	JSR	SumN
+	INC	Tmp
+Add	LDAB	$00,X
+	ADDB	Result
+	STAB	Result
+	INX
+	RTS

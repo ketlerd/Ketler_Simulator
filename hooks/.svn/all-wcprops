@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/p/ketlersimulator/code/!svn/ver/3/hooks
+END
+post-revprop-change.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/ketlersimulator/code/!svn/ver/3/hooks/post-revprop-change.tmpl
+END
+start-commit.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/ketlersimulator/code/!svn/ver/3/hooks/start-commit.tmpl
+END
+pre-revprop-change.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/ketlersimulator/code/!svn/ver/3/hooks/pre-revprop-change.tmpl
+END
+post-commit.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/ketlersimulator/code/!svn/ver/3/hooks/post-commit.tmpl
+END
+post-lock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/ketlersimulator/code/!svn/ver/3/hooks/post-lock.tmpl
+END
+pre-commit.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/ketlersimulator/code/!svn/ver/3/hooks/pre-commit.tmpl
+END
+pre-lock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/ketlersimulator/code/!svn/ver/3/hooks/pre-lock.tmpl
+END
+post-unlock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/ketlersimulator/code/!svn/ver/3/hooks/post-unlock.tmpl
+END
+pre-unlock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/ketlersimulator/code/!svn/ver/3/hooks/pre-unlock.tmpl
+END

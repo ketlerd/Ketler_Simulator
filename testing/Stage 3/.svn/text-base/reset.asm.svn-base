@@ -1,0 +1,8 @@
+	ORG 	$FF00
+	LDAA	#$0
+	LDAB	#$0
+	TAP
+	LDX	#$0000
+	LDS	#$D000
+	JMP	#$0		
+
